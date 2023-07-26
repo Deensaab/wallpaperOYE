@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: ##004F4D;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+ footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #004F4D;
+            color: #fff;
+        }
+
+#search-bar-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+#tag-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 200px;
+}
+
+#tag-filter-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#tag-filter-container label {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+#wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: -1rem;
+}
+
+.wallpaper {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.wallpaper-container {
+    flex: 1 1 200px;
+    margin-bottom: 9rem;
+}
+/* Existing styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#search-bar-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+#tag-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: -18.5rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 22px;
+    flex-direction: row;
+}
+
+#tag-filter-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#tag-filter-container label {
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 0rem 0.5rem;
+    border-radius: 4px;
+}
+
+
+#wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start; /* Align wallpapers to the left */
+}
+
+.wallpaper {
+    width: 450%; /* Each wallpaper takes 25% of the container's width */
+    max-height: 500px; /* Set the maximum height for uniformity */
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.wallpaper-container {
+    flex: 0 0 25%; /* Make each wallpaper container 25% of the available width */
+    margin-bottom: 1rem;
+}
+/* Existing styles */
+
+#wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start; /* Align wallpapers to the left */
+}
+
+.wallpaper {
+    width: 250%; /* Each wallpaper takes 20% of the container's width for 5 wallpapers in a row */
+    max-height: 200px; /* Set the maximum height for uniformity */
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.wallpaper-container {
+    flex: 0 0 20%; /* Make each wallpaper container 20% of the available width */
+    margin-bottom: 1rem;
+}
+
+
+/* Existing styles */
+
+header {
+    background-color: #004F4D;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative; /* Needed for absolute positioning of buttons */
+}
+
+#wallpaper-buttons-container {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    display: flex;
+}
+
+#wallpaper-buttons-container button {
+    margin-left: 1rem;
+}
+
+/* Rest of your CSS styles */
+/* Existing styles */
+
+#wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wallpaper-container {
+    width: calc(25% - 1rem); /* Adjust the width as per your preference */
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.wallpaper {
+    width: 100%;
+    height: auto;
+}
+
+/* Rest of your CSS styles */
+/* Existing styles */
+
+#wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wallpaper-container {
+    width: calc(25% - 1rem); /* Adjust the width as per your preference */
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.wallpaper {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Adjust the object-fit property to your preference */
+}
+
+.mobile-wallpaper {
+    width: auto; /* Set the width to auto to maintain the original aspect ratio */
+    height: auto; /* Set the height to auto to maintain the original aspect ratio */
+}
+
+/* Rest of your CSS styles */
+#wallpaper-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+#wallpaper-buttons-container button {
+  margin-left: 1rem;
+  background-color: #004F4D;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#wallpaper-buttons-container button.active {
+  background-color: #444;
+}
+overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity for the blur effect */
+            backdrop-filter: blur(5px); /* Adjust the blur amount */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }

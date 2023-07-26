@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Wallpaper Hub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("file:///E:/unity3d/newproject/wallpaper/index.html/wallpapers/silhouette-forest-landscape-background/tawz_u63b_210816.jpg"); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(148 166 161, 0.5); /* Adjust the opacity for the blur effect */
+            backdrop-filter: blur(5px); /* Adjust the blur amount */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .enter-button {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            background-color: rgba(148, 166, 161, 0.8); /* Adjust the opacity for the button */
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .enter-button:hover {
+            background-color: rgba(255, 255, 255, 1); /* Adjust the opacity on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <button class="enter-button" onclick="redirectToMainPage()">Enter</button>
+    </div>
+
+    <script>
+        function redirectToMainPage() {
+            window.location.href = "main-page.html"; /* Replace with the URL of your main page */
+        }
+    </script>
+</body>
+</html>
