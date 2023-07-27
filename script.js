@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
           { src: "wallpapers/Firefly deer has jungle on her backbone, minimal, white background 60757.jpg", tags: ["nature"], type: "computer"},
           { src: "wallpapers/Firefly man standing on mountain, watching at big water fall 25041.jpg", tags: ["nature",], type: "computer"},
           { src: "wallpapers/Firefly man standing on mountain, watching at lush green village ,sunset ,4k , hyperrealstic 86522.jpg", tags: ["nature", "abstract"], type: "computer"},
+          { src: "wallpapers/Firefly purple sunset in pond, high snow covered mountain style of a video games 21675.jpg", tags: ["nature", "fantasy"], type: "computer"},
 
 
         // Add more wallpapers with their respective tags and type
